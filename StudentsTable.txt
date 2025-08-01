@@ -1,0 +1,174 @@
+/*create table Students
+ ( id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+  age INT,
+  address varchar(100),
+  contact INT (15),
+  email varchar (100),
+  department VARCHAR(100),
+  course varchar (20),
+  joindate date 
+   
+   );*/
+
+ /*insert into Students (id,name ,age,address,contact ,email,department ,course,joindate)
+ values 
+ (1,"john",20,"bhopal",8960750234,"john@gmail.com","IT","B.Tech",2020-01-02),
+ ( 2,"janny",18,"Lucknow",7886455325,"janny@gmail.com","CSE","B.Tech",2022-01-01)
+ ( 3,"jam",18,"Delhi",7886454835,"jam@gmail.com","CSE","B.Tech",2022-01-05)
+ ( 4,"Alan",18,"Noida",7882387625,"Alan@gmail.com","EE","BCA",2024)
+ (5,"Adam",17,"Noida",7882359615,"Adam@gmail.com","EN","BCA",2018)
+ (6,"jonsan",17,"London",8960750156,"jonsan@gmail.com","PA","Artist",2012)
+ (7,"salvi",17,"Noida",7882365423,"salvi@gmail.com","EN","B.Tech",2014)
+ (8,"Anas",25,"Lucknow",9918022345,"Anas@gmail.com","EE","BCA",2018)
+ (9,"jaky",23,"Delhi",7789653455,"jaky@gmail.com","IT","B.Tech",2014)
+ (10,"muku",19,"bhopal",7739949607,"muku@gmail.com","CSE","B.Tech",2017) ;*/
+ 
+/* SELECT *
+FROM Students ;*/
+
+/*select joindate 
+from Students ;*/
+
+/* select name,age 
+from Students 
+where age >20;*/
+
+/* select name,course ,department
+from Students 
+where department = 'CSE';*/
+
+ /* Select *
+from Students 
+where name like'%an%'; */
+
+ /* SELECT name 
+from Students 
+order by name asc ;*/
+
+ /* select joindate 
+from Students 
+order by joindate desc; */
+
+ /*(select count(name)
+ from Students ; */
+ 
+/* select avg(name)
+from Students ; */
+
+/*  select name, address
+from Students
+where address = 'bhopal'; */
+
+/* select *
+from Students 
+where age <18; */
+
+/* select name,course
+from Students 
+where course in('B.Tech','BCA')
+order by name asc ; */
+
+/* select name ,department
+from Students 
+where department in ('IT','CSE','PA'); */
+
+/* select name 
+from Students 
+where id is not  null; */
+
+/*select * 
+from Students 
+where name = 'salvi'; */
+
+/* select*
+FROM Students 
+WHERE joindate like '%24'; */
+
+select *
+from Students 
+where address like 'Noida';
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+	
+
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+ 
+
+
+
+
+
+ 
+
+
+
